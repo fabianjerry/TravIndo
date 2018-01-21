@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF800000"
+    tools:context="com.guefabian.travelerindonesia.login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:textSize="30dp"
+        android:textColor="#FFFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRAVELER INDONESIA"
+        android:textSize="30dp"
+        android:textColor="#FFFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please Login"
+        android:textSize="30dp"
+        android:textColor="#FFFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:hint="YOUR NAME"
+        android:textColorHint="#FFFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"/>
+
+    <EditText
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:hint="COUNTRY"
+        android:textColorHint="#FFFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="LOGIN"
+        android:background="#FFFF"
+        android:textColor="#FF800000"
+        android:id="@+id/buttonlogin"
+        android:onClick="buttonlogin"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center" />
+
+
+
+</LinearLayout>

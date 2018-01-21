@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF800000"
+    tools:context="com.guefabian.travelerindonesia.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TRAVELER"
+        android:textSize="50dp"
+        android:textColor="#FFFF"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INDONESIA"
+        android:textColor="#FFFF"
+        android:textSize="50dp"
+        android:layout_marginLeft="75dp"/>
+
+    <Button
+        android:id="@+id/buttonsemarang"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="SEMARANG"
+        android:background="#FFFF"
+        android:textColor="#FF800000"
+        android:layout_marginTop="35dp"
+        android:onClick="buttonsemarang"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="BANDUNG"
+        android:background="#FFFF"
+        android:textColor="#FF800000"
+        android:onClick="buttonbandung"
+        android:id="@+id/buttonbandung"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="YOGYAKARTA"
+        android:background="#FFFF"
+        android:textColor="#FF800000"
+        android:onClick="buttonjogja"
+        android:id="@+id/buttonjogja"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="SURAKARTA"
+        android:background="#FFFF"
+        android:textColor="#FF800000"
+        android:id="@+id/buttonsolo"
+        android:onClick="buttonsolo"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="ABOUT US"
+        android:background="#FFFF"
+        android:textColor="#FF800000"
+        android:onClick="buttontentang"
+        android:id="@+id/buttontentang"
+        />
+
+
+</LinearLayout>

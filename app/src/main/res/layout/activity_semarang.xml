@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#FF800000"
+    android:layout_height="match_parent"
+    tools:context="com.guefabian.travelerindonesia.semarang">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEMARANG"
+        android:textColor="#FFFF"
+        android:textSize="45dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRAVELER"
+        android:textColor="#FFFF"
+        android:textSize="45dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:onClick="buttonfunsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFF"
+        android:text="FUN SITE"
+        android:textColor="#FF800000"
+        android:layout_marginTop="45dp"/>
+    <Button
+        android:onClick="buttonphoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFF"
+        android:text="PHOTOGRAPHY SPOT"
+        android:textColor="#FF800000"
+        android:layout_marginTop="3dp"/>
+    <Button
+        android:onClick="buttonresto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFF"
+        android:text="RESTAURANT"
+        android:textColor="#FF800000"
+        android:layout_marginTop="3dp"/>
+    <Button
+        android:onClick="buttonhotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFF"
+        android:text="HOTEL"
+        android:textColor="#FF800000"
+        android:layout_marginTop="3dp"/>
+    <Button
+        android:onClick="buttonbandara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFF"
+        android:text="AIRPORT"
+        android:textColor="#FF800000"
+        android:layout_marginTop="3dp"/>
+    <Button
+        android:onClick="buttonstasiun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFF"
+        android:text="RAILWAY STATION"
+        android:textColor="#FF800000"
+        android:layout_marginTop="3dp"/>
+
+
+</LinearLayout>

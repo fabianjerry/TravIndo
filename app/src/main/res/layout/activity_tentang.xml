@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFF"
+tools:context="com.guefabian.travelerindonesia.tentang">
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TENTANG KAMI"
+        android:textColor="#FF800000"
+        android:layout_marginLeft="70dp"
+        android:textSize="30dp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="18dp"
+        android:text="TRAVELINDONESIA adalah Mobile Application yang didedikasikan untuk para traveler Indonesia
+maupun Mancanegara yang akan menjelajahi Indonesia.
+Dengan menyediakan konten situs tempat wisata yang menarik
+akan membuat para traveler berpikir untuk mengunjungi nya.
+Di satu sisi yang lain selain mempromosikan situs wisata kami juga membantu perekonimian
+di daerah situs wisata tersebut,
+dengan adanya pengunjung maka akan ada penghasilan bagi masyarakat sekitar.
+"
+        android:textColor="#FF800000"
+        android:textSize="15dp"
+        android:layout_marginRight="10dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="26dp"
+        android:src="@drawable/wonderful" />
+
+</RelativeLayout>

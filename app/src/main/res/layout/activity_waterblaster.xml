@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#FF800000"
+    tools:context="com.guefabian.travelerindonesia.waterblaster">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WATER BLASTER"
+        android:textColor="#FFFF"
+        android:textSize="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/wbsmg2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: Jl. Bukit Candi Golf No.1,
+Jangli, Tembalang, Kota Semarang, Jawa Tengah 50255"
+        android:textColor="#FFFF"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jam: Sunday	07:00 – 17:30
+Monday	Closed
+Tuesday	10:00 – 17:30
+Wednesday	10:00 – 17:30
+Thursday	10:00 – 17:30
+Friday	10:00 – 17:30
+Saturday	10:00 – 17:30"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFFF"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HTM = TUESDAY - FRIDAY IDR 60.000
+SATURDAY-SUNDAY IDR 80.000
+MONDAY CLOSED"
+        android:textColor="#FFFF"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"/>
+
+
+
+</LinearLayout>
